@@ -11,11 +11,14 @@ body {
 nav {
     width: 70%;
     margin: 3rem auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5rem;
 }
 ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 li {
     list-style: none;
@@ -23,6 +26,7 @@ li {
 li a {
     text-decoration: none;
     color: white;
+    font-size: 14px;
     letter-spacing: .2rem;
 }
 button {
@@ -32,4 +36,29 @@ button {
     border-radius: 20px;
     color: white;
     cursor: pointer;
+}
+.banner {
+    width: 70%;
+    margin: 25rem auto 0 auto;
+    color: white;
+}
+.banner h1 {
+    font-size: 80px;
+    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+    padding: 0;
+    letter-spacing: 0.3rem;
+}
+.banner p {
+    letter-spacing: .2rem;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+    text-transform: uppercase;
+}
+hr {
+    width: 85px;
+    height: 4px;
+    background: white;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+    margin-bottom: 6rem;
 }
