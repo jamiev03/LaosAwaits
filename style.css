@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* rgb(229, 159, 159) */
+body {
+    box-sizing: border-box;
+    background: url("img/bg.jpg") center center/cover no-repeat fixed #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
