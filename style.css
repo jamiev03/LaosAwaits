@@ -27,8 +27,7 @@ html {
 
 body {
     box-sizing: border-box;
-    /* background: url("img/bg.jpg") center center/cover no-repeat fixed #ccc; */
-    
+    /* background: url("img/bg.jpg") center center/cover no-repeat fixed #ccc; */   
 }
 .nav-banner {
     background-image: url(img/bg.jpg);
@@ -116,16 +115,41 @@ hr {
     color: white;
 }
 .discover {
-
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
 }
 .discover-left {
     width: 50%;
-    height: 850px;
-    background: #ff784f;
+    height: 600px;
+    background: #be9b27;
+}
+.discover-left-text {
+    color: white;
+    padding-top: 8rem;
+    margin: 0 auto;
+    width: 65%;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+.discover-left-text h3 {
+    padding-bottom: 1rem;
 }
 .discover-right {
     width: 50%;
-    height: 850px;
+    height: 600px;
+}
+.discover-right h5 {
+    margin-top: 3rem;
+    letter-spacing: .2rem;
+    float: right;
+}
+.first-img {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 56rem;
+    top: 60rem;
 }
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
