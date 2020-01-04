@@ -102,6 +102,14 @@ hr {
     /* box-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
     margin-bottom: 4rem;
 }
+.black-line {
+    width: 100px;
+    height: 2px;
+    background: #1c1c1c;
+    border: none;
+    /* box-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
+    margin-bottom: 4rem;
+}
 .location {
     margin-bottom: 2rem;
 }
@@ -150,6 +158,36 @@ hr {
     height: auto;
     left: 56rem;
     top: 60rem;
+    -webkit-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+}
+.destinations {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.destinations-right h5 {
+    letter-spacing: .2rem;
+    float: right;
+}
+.destinations-left {
+    flex: 1;
+}
+.destinations-left-text {
+    color: white;
+    color: #1c1c1c;
+    width: 65%;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+.destinations-middle {
+    width: 50%;   
+}
+.destinations-right {
+    flex: 1;   
 }
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
