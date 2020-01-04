@@ -1,3 +1,18 @@
+/* @font-face {
+    font-family: 'gilroyextrabold';
+    src: url('assets/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('assets/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'cera_promedium';
+    src: url('assets/cera_pro_medium-webfont.woff2') format('woff2'),
+         url('assets/cera_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +24,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("img/bg.jpg");
     background-position: top center;
-    background-size: 100% 800px;
+    background-size: 100% 850px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -28,6 +43,10 @@ ul {
 li {
     list-style: none;
 }
+li h1 {
+    font-family: 'cera_promedium';
+    font-size: 2rem;
+}
 li a {
     text-decoration: none;
     color: white;
@@ -44,31 +63,42 @@ button {
 }
 .banner {
     width: 70%;
-    margin: 26.5rem auto 0 auto;
+    margin: 30rem auto 0 auto;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 .banner h1 {
     font-size: 80px;
-    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
-    padding: 0;
+    /* text-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
     letter-spacing: 0.3rem;
+    /* font-family: 'gilroyextrabold'; */
+    font-family: 'cera_promedium';
+}
+/* This is kind of weird */
+.banner h1:first-letter { 
+    margin-left: -6px
 }
 .banner p {
     letter-spacing: .2rem;
     font-size: 14px;
-    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
-    text-transform: uppercase;
+    /* text-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
+    /* text-transform: uppercase; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 hr {
     width: 85px;
     height: 2px;
     background: white;
     border: none;
-    box-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
-    margin-bottom: 4.5rem;
+    /* box-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
+    margin-bottom: 4rem;
 }
 .split2 {
     align-self: flex-end;
+    font-size: 32px;
+    opacity: 0.7;
+}
+.split2 a {
+    color: white;
 }
