@@ -237,37 +237,64 @@ hr {
     align-items: center;
     width: 100%;
 }
-.culture-left {
-    height: 600px;
-    background: white;
-}
-.culture-left-text {
+.culture {
     color: #1c1c1c;
     padding-top: 8rem;
     margin: 0 auto;
     width: 82%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     line-height: 1.5;
     letter-spacing: .1rem;
+}
+.blog {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+}
+.culture-left {
+    height: 600px;
+    background: white;
+    margin: 20px;
+    text-align: center;
 }
 .culture-left-text h2 {
     padding-bottom: 1rem;
 }
 .culture-middle {
-    
+    margin: 20px; 
+    text-align: center;
 }
-.culture-right {
-    
+.culture-right { 
     height: 600px;
+    margin: 20px;
+    text-align: center;
 }
-.culture-right h5 {
-    margin-top: 3rem;
-    letter-spacing: .2rem;
-    float: right;
-    font-size: 15px;
-    padding-right: 10rem;
+.img1 {
+    -webkit-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
 }
+.culture-left img {
+    max-width: 100%;
+    height: auto;
+}
+.culture-middle img {
+    max-width: 100%;
+    height: auto;
+}
+.culture-right img {
+    max-width: 100%;
+    height: auto;
+}
+.blog p {
+    line-height: 1.5;
+    letter-spacing: .1rem; 
+    margin-top: 1rem;
+}
+
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
 /* #c8ad55 vegas gold */
