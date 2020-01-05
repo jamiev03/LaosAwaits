@@ -42,7 +42,7 @@ nav {
     border-bottom: 1px solid white;
     padding-bottom: 2rem;
 }
-ul {
+.banner-nav-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -278,21 +278,45 @@ hr {
     box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
 }
 .culture-left img {
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
 }
 .culture-middle img {
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
 }
 .culture-right img {
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
 }
 .blog p {
     line-height: 1.5;
     letter-spacing: .1rem; 
     margin-top: 1rem;
+    font-weight: 700;
+}
+.lower-banner {
+    background-image: url("img/laos-1938023_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+footer {
+    height: 600px;
+    width: 100%;
+    background: rgb(53, 52, 52);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    padding-top: 5rem;
+    margin: 0 auto;
+}
+.links h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
 }
 
 /* #ff784f coral */
