@@ -188,7 +188,7 @@ hr {
     line-height: 1.5;
     letter-spacing: .1rem;
     margin-left: 10.5rem;
-    margin-top: 3rem;
+    
     font-size: 25px;
 }
 .destinations-right-text {
@@ -223,6 +223,50 @@ hr {
     background-size: cover;
     height: auto;
     width: 50%;
+}
+.history h5 {
+    letter-spacing: .2rem;
+    float: right;
+    font-size: 15px;
+    padding-right: 10rem;
+}
+.culture {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.culture-left {
+    height: 600px;
+    background: white;
+}
+.culture-left-text {
+    color: #1c1c1c;
+    padding-top: 8rem;
+    margin: 0 auto;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+.culture-left-text h2 {
+    padding-bottom: 1rem;
+}
+.culture-middle {
+    
+}
+.culture-right {
+    
+    height: 600px;
+}
+.culture-right h5 {
+    margin-top: 3rem;
+    letter-spacing: .2rem;
+    float: right;
+    font-size: 15px;
+    padding-right: 10rem;
 }
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
