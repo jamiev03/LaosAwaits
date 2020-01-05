@@ -188,6 +188,7 @@ hr {
     line-height: 1.5;
     letter-spacing: .1rem;
     margin-left: 10.5rem;
+    margin-top: 3rem;
     font-size: 25px;
 }
 .destinations-right-text {
@@ -197,10 +198,10 @@ hr {
     width: 60%;   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .second-img {
-    width: 65%;
+    width: 60%;
     height: auto;
     -webkit-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
     -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
@@ -215,6 +216,13 @@ hr {
     letter-spacing: .1rem;
     margin-left: 2.5rem;
     margin-top: 4rem;
+}
+.history {
+    background-image: url(img/laos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 50%;
 }
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
