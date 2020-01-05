@@ -303,9 +303,10 @@ hr {
     height: 400px;
 }
 footer {
-    height: 600px;
+    height: 490px;
     width: 100%;
     background: rgb(53, 52, 52);
+    color: rgb(221, 221, 221);
 }
 .footer {
     display: flex;
@@ -314,9 +315,45 @@ footer {
     padding-top: 5rem;
     margin: 0 auto;
 }
-.links h3 {
+.links h4 {
     text-transform: uppercase;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+}
+input {
+    margin-top: 25px;
+    border: none;
+    height: 32px;
+    width: 250px;
+}
+.bottom {
+    width: 82%;
+    margin: 7.5rem auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+.bottom h1 {
+    margin-right: 100px;
+}
+.bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom li {
+    margin-right: 50px;
+    margin-bottom: 1rem;
+}
+.bottom i {
+    font-size: 35px;
+}
+.footer-hr {
+    width: 1100px;
+    height: 2px;
+    background: white;
+    border: none;
+    margin: 0 auto;
+    /* box-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
 }
 
 /* #ff784f coral */
