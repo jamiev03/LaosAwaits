@@ -356,6 +356,18 @@ input {
     /* box-shadow: 1px 1px 3px rgba(150, 150, 150, 1); */
 }
 
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    
+}
+
 /* #ff784f coral */
 /* #e47830 deep carrot orange */
 /* #c8ad55 vegas gold */
