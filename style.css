@@ -204,7 +204,8 @@ hr {
     box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
 }
 .destinations-right {
-    flex: 1;   
+    flex: 1; 
+    align-self: flex-start;  
 }
 .destinations-right-text {
     color: #1c1c1c;
@@ -389,9 +390,9 @@ input {
     }
     .destinations-right h5 {
         letter-spacing: .2rem;
-        float: right;
+        
         font-size: 15px;
-        padding-right: 10rem;
+        padding-right: 3rem;
     }
     .destinations-middle {
         width: 60%;   
@@ -399,6 +400,13 @@ input {
         justify-content: center;
         align-items: flex-start;
     }
+    .destinations-right-text {
+        color: #1c1c1c;
+        line-height: 1.5;
+        letter-spacing: .1rem;
+        margin-left: 2rem;
+        margin-top: 4rem;
+}
     .second-img {
         width: 80%;
         height: auto;
