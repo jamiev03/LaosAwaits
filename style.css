@@ -359,7 +359,36 @@ input {
   
 }
 @media screen and (max-width: 768px) {
-   
+    .first-img {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        left: 21rem;
+        top: 64rem;
+        -webkit-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+        -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+        box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    }
+    .discover-left {
+        width: 50%;
+        height: 600px;
+        background: #be9b27;
+    }
+    .discover-left-text {
+        color: white;
+        padding-top: 3rem;
+        margin: 0 auto;
+        width: 75%;
+        line-height: 1.5;
+        letter-spacing: .1rem;
+    }
+    .discover-right h5 {
+        margin-top: 3rem;
+        letter-spacing: .2rem;
+        float: right;
+        font-size: 15px;
+        padding-right: 2rem;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1170px) {
     .first-img {
