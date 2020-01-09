@@ -248,25 +248,25 @@ hr {
 .blog {
     display: flex;
     justify-content: space-between;
-    width: 82%;
+    width: 83%;
     margin: 0 auto;
 }
 .culture-left {
     height: 600px;
     background: white;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
 }
 .culture-left-text h2 {
     padding-bottom: 1rem;
 }
 .culture-middle {
-    margin: 20px; 
+    margin: 15px; 
     text-align: center;
 }
 .culture-right { 
     height: 600px;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
 }
 .img1 {
@@ -372,13 +372,20 @@ input {
         -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
         box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
     }
+    .discover-right h5 {
+        margin-top: 3rem;
+        letter-spacing: .2rem;
+        float: right;
+        font-size: 15px;
+        padding-right: 6rem;
+    }
     .destinations {
         width: 100%;
         height: 600px;
         display: flex;
         margin: 0 auto;
         justify-content: center;
-        margin-top: 6rem;
+        margin-top: 7rem;
     }
     .destinations-left-text {
         color: #1c1c1c;
@@ -390,9 +397,8 @@ input {
     }
     .destinations-right h5 {
         letter-spacing: .2rem;
-        
         font-size: 15px;
-        padding-right: 3rem;
+        padding-right: 4.5rem;
     }
     .destinations-middle {
         width: 60%;   
@@ -413,6 +419,47 @@ input {
         -webkit-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
         -moz-box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
         box-shadow: 3px 6px 16px -3px rgba(0,0,0,0.83);
+    }
+    .history h5 {
+        letter-spacing: .2rem;
+        float: right;
+        font-size: 15px;
+        padding-right: 7.5rem;
+    }
+    .culture-left img {
+        max-width: 350px;
+        height: auto;
+    }
+    .culture-middle img {
+        max-width: 350px;
+        height: auto;
+    }
+    .culture-right img {
+        max-width: 350px;
+        height: auto;
+    }
+    .culture-left {
+        height: 350px;
+        background: white;
+        margin: 10px;
+        text-align: center;
+    }
+    .culture-left-text h2 {
+        padding-bottom: 1rem;
+    }
+    .culture-middle {
+        margin: 10px; 
+        text-align: center;
+    }
+    .culture-right { 
+        margin: 10px;
+        text-align: center;
+    }
+    .blog {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
