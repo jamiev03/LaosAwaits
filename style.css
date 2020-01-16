@@ -252,7 +252,7 @@ hr {
     margin: 0 auto;
 }
 .culture-left {
-    height: 600px;
+    height: 450px;
     background: white;
     margin: 15px;
     text-align: center;
@@ -263,6 +263,7 @@ hr {
 .culture-middle {
     margin: 15px; 
     text-align: center;
+    margin-bottom: 4rem;
 }
 .culture-right { 
     height: 600px;
@@ -517,15 +518,15 @@ input {
         padding-right: 7.5rem;
     }
     .culture-left img {
-        max-width: 350px;
+        max-width: 270px;
         height: auto;
     }
     .culture-middle img {
-        max-width: 350px;
+        max-width: 270px;
         height: auto;
     }
     .culture-right img {
-        max-width: 350px;
+        max-width: 170px;
         height: auto;
     }
     .culture-left {
@@ -548,7 +549,7 @@ input {
     .blog {
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
 }
